@@ -72,7 +72,7 @@ img{
 }
 img.d-block.w-100{
     width: 100%;
-    height: 500px;
+    height: auto;
     margin-top: 60px;
 
 }
@@ -214,7 +214,7 @@ div.row.row-cols-4{
 }
 .banner-promocao{
     width: 100%;
-    height: 620px;
+    height: auto;
     margin-bottom: 50px;
 }
   .text-box {
@@ -338,7 +338,10 @@ footer{
     width: 200px;
     height: 20px;
 }
-
+.navbar-toggler {
+    padding: 3px;
+    font-size: 16px;
+}
 
 @keyframes moveInBottom {
     0% {
@@ -359,5 +362,135 @@ footer{
         transform: translateX(0);
     }
   }
+  
+  @media (max-width: 529px) {
+    header{
+        padding-left: 2px;
+        padding-right: 10px;
+        
+    }
+    
+    .container-pesquisa{
+        padding-left: 10px;
+        margin-right: 8px;
+        width: 50%;
+    }
+    img{
+        width: 90px;
+        height: 35px;
+    }
+    .busca{
+        width: 15px;
+        height: 15px;
+    }
+    .pesquisa{
+        font-family: "Poppins", sans-serif;
+    }
+  }
+  @media (max-width: 340px) {
+    img{
+        width: 80px;
+        height: 30px;
+        margin-left: -10px;
+    }
+    .pesquisa{
+        font-size: 9px;
+    }
+    .busca{
+       margin-left: 0px;
+    }
+  }
+  @media (max-width: 384px) {
+   
+    .pesquisa{
+        font-size: 13px;
+    }
+  }
+  @media (max-width: 676px) {
+   footer{
+    flex-wrap: wrap;
+    align-content: space-between;
+    column-gap: 25px;
+    row-gap: 15px;
+    align-items: start;
+   }
+   .contato-container{
+    padding-top: 20px;
+}
+    
+  }
+  @media (max-width: 328px) {
+    .contato-container{ 
+    justify-items: center;
+     text-align: center;
+ }
+     
+   }
+   @media (max-width: 400px) {
+    .imagem-produtos{
+        width: 240px;
+        height: 300px;
+    }
+ 
+   }
+   @media (max-width: 1024px) {
+    .imagem-produtos{
+        width: 240px;
+        height: 300px;
+    }
+    .imagem-categoria{
+        width: 150px;
+        height: 200px;
+    
+    }
+   }
+  @media (max-width: 768px) {
+    .imagem-produtos{
+        width: 180px;
+        height: 230px;
+    }
+    .imagem-categoria{
+        width: 130px;
+        height: 170px;
+    
+    }
+   }
+   @media (max-width: 527px) {
+    .imagem-produtos{
+        width: 110px;
+        height: 150px;
+    }
+    .imagem-categoria{
+        width: 80px;
+        height: 110px;
+    
+    }
+    .cor-produto1, .cor-produto2-p, .cor-produto2-s, .cor-produto2-t, 
+.cor-produto2-q, .cor-produto3, .cor-produto4, .cor-produto5-p, .cor-produto5-s,
+.cor-produto6-p,
+.cor-produto6-s, .cor-produto6-t {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+h4{
+    font-size: 11px;
+}
+h3{
+    font-size: 16px; 
+}
+h5{
+    font-size: 15px;
+
+}
+   }
+   @media (max-width: 425px) {
+    .imagem-categoria{
+        width: 80px;
+        height: 100px;
+    
+    }
+}
+  
   
 
